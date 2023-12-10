@@ -7,8 +7,11 @@ from random import choice, randint
 class Sky:
     def __init__(self, horizon):
         self.top = pygame.image.load('../graphics/decoration/sky/sky_top.png').convert()
+        self.top.fill('#a0d8ef')
         self.bottom = pygame.image.load('../graphics/decoration/sky/sky_bottom.png').convert()
+        self.bottom.fill('#a0d8ef')
         self.middle = pygame.image.load('../graphics/decoration/sky/sky_middle.png').convert()
+        self.middle.fill('#a0d8ef')
         self.horizon = horizon 
 
         # stretch
